@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/BEEHIVE LOGO.png" type="image" sizes="16x16">
+    <title>BEEHIVE Design Studio - Interior Inspired By You</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="At BeeHive Design Studio We believe that interior design begins by thinking about how you live and what you love ">
+    <meta name="author" content="BEEHIVE DESIGN STUDIO">
+
+    <!-- CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/color.css" rel="stylesheet" type="text/css">
+
+    <!-- custom background -->
+    <link rel="stylesheet" href="css/bg.css" type="text/css">
+
+    <!-- color scheme -->
+    <link rel="stylesheet" href="css/colors/yellow.css" type="text/css" id="colors">
+
+    <!-- revolution slider -->
+    <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
+</head>
+
+<body class="page-contact">
+    <div id="wrapper">
+        <!-- header begin -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-flex">
+                            <!-- logo begin -->
+                            <div id="logo">
+                                <a href="index.html">
+                                    <img class="logo" src="images/BEEHIVE Header LOGO.png" height="70px" weight="70px">
+                                </a>
+                            </div>
+                            <!-- logo close -->
+
+                            <!-- small button begin -->
+                            <span id="menu-btn"></span>
+                            <!-- small button close -->
+
+                            <!-- mainmenu begin -->
+                            <div class="md-flex-col">
+                                <nav class="md-flex">
+                                    <ul id="mainmenu">
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#section-project">Projects</a>
+                                            <ul>
+												<li><a href="residential-project.html">Residential</a></li>
+												<li><a href="corporate-office-project.html">Corporate-Office</a></li>
+                                                <li><a href="retails-healthcare-project.html">Retalis-Healthcare</a></li>
+                                                <li><a href="restaurent-cafe-project.html">Restaurent-Cafe</a></li>
+                                                <li><a href="#">3D-Work</a></li>
+											</ul>
+                                        </li>
+
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                            <ul>
+                                                <li><a href="renovation-form.html">Renovation Form</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- mainmenu close -->
+
+                            <div class="md-flex-col col-extra">
+                                <a href="renovation-form.html" class="btn-on-header btn-line">Get Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+
+        <!-- subheader -->
+        <section id="subheader" data-speed="8" data-type="background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Renovation Budgeting</h1>
+                        <ul class="crumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="sep">/</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subheader close -->
+
+        <!-- content begin -->
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <form name="contactForm" id="contact_form" action="https://api.web3forms.com/submit" method="POST" onsubmit="return validateCaptcha()">
+                            <input type="hidden" name="access_key" value="33eac8f7-d25d-4d63-a58a-5beaf0150107">
+                            
+                            <!-- Step 1: Property Type and Details -->
+                            <div id="step-1" class="row">
+                                <div class="col-md-12 mb30">
+                                    <h4><i class="fa fa-home id-color"></i>What is your property type?</h4>
+                                    <div class="de_form de_radio">
+                                        <div class="radio-img">
+                                            <input id="radio-1a" name="Property_Type" type="radio" value="Residential" checked="checked">
+                                            <label for="radio-1a"><img src="images/select-form/1.jpg">Residential</label>
+                                        </div>
+                                        <div class="radio-img">
+                                            <input id="radio-1b" name="Property_Type" type="radio" value="Office">
+                                            <label for="radio-1b"><img src="images/select-form/2.jpg">Office</label>
+                                        </div>
+                                        <div class="radio-img">
+                                            <input id="radio-1c" name="Property_Type" type="radio" value="Commercial">
+                                            <label for="radio-1c"><img src="images/select-form/3.jpg">Commercial</label>
+                                        </div>
+                                        <div class="radio-img">
+                                            <input id="radio-1d" name="Property_Type" type="radio" value="Retail">
+                                            <label for="radio-1d"><img src="images/select-form/4.jpg">Retail</label>
+                                        </div>
+                                        <div class="radio-img">
+                                            <input id="radio-1e" name="Property_Type" type="radio" value="Other">
+                                            <label for="radio-1e"><img src="images/select-form/5.jpg">Other</label>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="col-md-6 mb10">
+                                    <h4><i class="fa fa-arrows-alt id-color"></i>Total area size you want to renovate</h4>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="text" name="area_size" id="area-size" class="form-control" placeholder="Area Size" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select name="unit_size" id="unit_size" class="form-control">
+                                                <option value="sqft">Square Feet(sqft)</option>
+                                                <option value="m">meter(m)</option>
+                                                <option value="ft">Feet(ft)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="col-md-6 mb10">
+                                    <h4><i class="fa fa-tag id-color"></i>Select a renovation budget</h4>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select name="budget" id="budget" class="form-control">
+                                                <option value="Budget Friendly">Budget Friendly</option>
+                                                <option value="Mid Range">Mid Range</option>
+                                                <option value="High End">High End</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <!-- Step 2: User Details -->
+                            <div id="step-2" class="row">
+                                <h4><i class="fa fa-user id-color"></i>Enter your details</h4>
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <textarea name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+                                </div>
+                    
+                                <!-- CAPTCHA -->
+                                <div class="g-recaptcha" data-sitekey="6LceQVsqAAAAAIu6RNE68l7XcpBtqeRLJK66l7zR"></div>
+                                <div class="col-md-12">
+                                    <p id="submit" class="mt20">
+                                        <input type="submit" id="send_message" value="Submit Form" class="btn btn-line">
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    
+                        <!-- Success/Error Messages -->
+                        <div id="success_message" class="success" style="display: none;">
+                            Your message has been sent successfully. Refresh this page if you want to send more messages.
+                        </div>
+                        <div id="error_message" class="error" style="display: none;">
+                            Sorry, there was an error sending your form.
+                        </div>
+                        <div id="captcha_error" class="error" style="display: none;">
+                            Invalid CAPTCHA. Please try again.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer begin -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/BEEHIVE PNG.png" class="logo-small" alt="" height="225px">
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="widget widget_recent_post">
+                            <h3>We Think</h3>
+                            <span>
+                                We at BEE HIVE DESIGN STUDIO believe that interior design begins by thinking about how you live and what you love.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3" style="background-size: cover;">
+                        <div class="widget widget_recent_post" style="background-size: cover;">
+                            <h3>Weekly Timing</h3>
+                            <ul>
+                                <li>Monday : 10:00 - 6:00</li>
+                                <li>Tuesday : 10:00 - 6:00</li>
+                                <li>Wednesday : 10:00 - 6:00</li>
+                                <li>Thursday : 10:00 - 6:00</li>
+                                <li>Friday : 10:00 - 6:00</li>
+                                <li>Saturday : 10:00 - 6:00</li>
+                                <li>Sunday : <span class="id-color">Close</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h3>Contact Us</h3>
+                        <div class="widget widget-address">
+                            <address>
+                                <span><strong>Address:</strong>Shop-04, Divya Stuti, A Wing, Gen A.K. Vaidya Marg, Gokuldham, Goregaon East, Mumbai 400063</span>
+                                <span><strong>Phone:</strong>022 4969 1149</span>
+                                <span><strong>Email:</strong><a href="mailto:info@bhivedesignstudio.com">info@bhivedesignstudio.com</a></span>
+                                <span><strong>Web:</strong><a href="https://www.bhivedesignstudio.com">www.bhivedesignstudio.com</a></span>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6"> 
+                            &copy; Copyright 2024 - <span class="id-color">BEE</span> HIVE DESIGN STUDIO</span>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/beehivedesignstudio/?locale=en_GB"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://x.com/BeehiveDesignST"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.instagram.com/beehivedesignstudio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" id="back-to-top"></a>
+        </footer>
+        <!-- footer close -->
+        <div id="purchase-now" style="background-size: cover;">
+            <a href="contact.html"><i class="fa-solid fa-phone"></i></a>
+        </div>
+    </div>
+
+    <!-- Javascript Files -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+
+    <!-- SLIDER REVOLUTION SCRIPTS -->
+    <script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Form Validation -->
+    <script>
+        function validateCaptcha() {
+            var response = grecaptcha.getResponse();
+            console.log("Captcha response:", response);  // Debugging CAPTCHA response
+            if (response.length === 0) {
+                document.getElementById('captcha_error').style.display = 'block';
+                return false;  // CAPTCHA not validated
+            } else {
+                document.getElementById('captcha_error').style.display = 'none';
+                return true;  // CAPTCHA validated
+            }
+        }
+    
+        function resetForm() {
+            document.getElementById("contact_form").reset();
+            grecaptcha.reset();  // Reset CAPTCHA
+        }
+    
+        document.getElementById("contact_form").onsubmit = function (event) {
+            event.preventDefault();
+            const form = event.target;
+    
+            // Simple validation
+            if (!form.name.value || !form.email.value || !form.phone.value || !form.message.value || !form.area_size.value) {
+                alert("Please fill all the fields.");
+                return;
+            }
+    
+            // Check if CAPTCHA is valid before submitting the form
+            if (!validateCaptcha()) {
+                return;  // Stop form submission if CAPTCHA is not valid
+            }
+    
+            // Prepare form data
+            const formData = {
+                access_key: form.access_key.value,
+                Property_Type: form.Property_Type.value,
+                area_size: form.area_size.value,
+                unit_size: form.unit_size.value,
+                budget: form.budget.value,
+                name: form.name.value,
+                email: form.email.value,
+                phone: form.phone.value,
+                message: form.message.value
+            };
+    
+            // Debug: Log the formData to check correctness
+            console.log("Form Data:", formData);
+    
+            // Show loading spinner
+            document.getElementById('send_message').value = "Sending...";
+    
+            fetch(form.action, {
+                method: form.method,
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)  // Send data as JSON
+            }).then(response => {
+                document.getElementById('send_message').value = "Submit Form";
+                console.log("Response status:", response.status);  // Debug response status
+                return response.json();
+            }).then(data => {
+                console.log("Response data:", data);  // Log response data from API
+                if (data.success) {
+                    document.getElementById('success_message').style.display = 'block';
+                    document.getElementById('error_message').style.display = 'none';
+                    resetForm();  // Reset form after successful submission
+                } else {
+                    document.getElementById('success_message').style.display = 'none';
+                    document.getElementById('error_message').style.display = 'block';
+                }
+            }).catch(error => {
+                console.error("Fetch Error:", error);
+                document.getElementById('success_message').style.display = 'none';
+                document.getElementById('error_message').style.display = 'block';
+            });
+        };
+    </script>
+</body>
+</html>
