@@ -2,8 +2,8 @@
 
 A responsive interior design portfolio website developed to showcase professional interior projects in a clean and modern layout.
 
-## 🌐 Live Demo
-(Add GitHub Pages link here)
+## 🌐 Live Preview
+(https://interior-designer-portfolio-groot.vercel.app)
 
 ## ✨ Features
 - Responsive design (Mobile + Desktop)
